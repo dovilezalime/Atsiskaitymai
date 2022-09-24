@@ -1,0 +1,41 @@
+/* Firs mobile design*/
+:root {
+    --main-text-color: #111111;
+    --main-grey-color: #555555;
+    --louncing-color: #FF3998;
+}
+body{
+    font-family: "Inter" sans-serif;
+    margin: 0 2rem;
+    justify-content: center;
+}
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   padding: 40px 100px ;
+}
+header ul {
+    display: none;
+    justify-content: center;
+    list-style: none;
+}
+header burger {
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30px;
+    height: 4px;
+}
+header burger-item {
+    width: 30px;
+    height: 5px;
+    border-radius: 20px;
+    background:#999999;
+}
+.NFT-LOGO{
+    width: 15%;
+}
+p {
+    color: var(--louncing-color);
+}
