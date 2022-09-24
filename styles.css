@@ -1,7 +1,5 @@
 /* Firs mobile design*/
 :root {
-    --main-text-color: #111111;
-    --main-grey-color: #555555;
     --louncing-color: #FF3998;
 }
 body{
@@ -15,10 +13,12 @@ header {
    justify-content: space-between; 
    padding: 40px 100px ;
 }
-header ul {
-    display: none;
-    justify-content: center;
-    list-style: none;
+header nav {
+    justify-content: flex-end;
+    flex-direction: row;
+    display: inline; 
+    
+ 
 }
 header burger {
     display: none;
@@ -36,6 +36,12 @@ header burger-item {
 .NFT-LOGO{
     width: 15%;
 }
-p {
-    color: var(--louncing-color);
+.Dont-miss-h {
+   font-size: 3rem;
+   font-family:'Roboto' sans-serif;
+   font-weight: bold;
+}
+.Dont-miss-p {
+    color:#FF3998; 
+    width: 50vw;
 }
