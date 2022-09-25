@@ -1,47 +1,175 @@
 /* Firs mobile design*/
 :root {
-    --louncing-color: #FF3998;
+    --dark-1:#11111;
+    --dark-2:#55555;
+    --dark-3:#77777;
+    --dark-4:#99999;
+    --light-1:#FFFFFF;
+    --light-2:#EEEEEE;
+    --Orange:#FF8139;
+    --light-orange:#FFF0E8;
+    --green:#39FFA0;
+    --light-green:#EDFFF6;
+    --pink:#FF3998;
+    --red:#FF3939;
 }
 body{
-    font-family: "Inter" sans-serif;
+    width: 428px;
+    height: 3300px;
     margin: 0 2rem;
     justify-content: center;
 }
 header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between; 
-   padding: 40px 100px ;
+    width: 428px;
+    margin: 3rem 0.2rem 3rem 0.2rem;
 }
-header nav {
-    justify-content: flex-end;
-    flex-direction: row;
-    display: inline; 
-    
- 
+.wraper {
+    display: flex;
+    justify-content: space-between;
 }
-header burger {
+.navigation {
     display: none;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 30px;
-    height: 4px;
 }
-header burger-item {
-    width: 30px;
-    height: 5px;
-    border-radius: 20px;
-    background:#999999;
+.burger-item {
+    color: var(--dark-4);
+    font-size: 2rem;
+    margin-top: 02rem;
 }
-.NFT-LOGO{
-    width: 15%;
+.first-container {
+    display: grid;
+    width: 300px;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    justify-items: start;
+    justify-content: space-evenly;
+    align-content: center;
 }
-.Dont-miss-h {
-   font-size: 3rem;
-   font-family:'Roboto' sans-serif;
-   font-weight: bold;
+.soon {
+    color:var(--pink);
+    font-family: "Inter"; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
-.Dont-miss-p {
-    color:#FF3998; 
-    width: 50vw;
+.bold-text {
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
 }
+.sign-up {
+   color:var(--dark-2);
+   font-family:"Inter";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+}
+button {
+    border-radius: 40px;
+    border: solid 5px transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    background-image: linear-gradient(--dark-1), var(--dark-1),linear-gradient(to right, --pink, --red, --Orange, --green);
+    background-color:var(--light-1);
+    padding:20px 50px;
+    font-weight:600;
+    font-size:20px;
+}
+.first-container-photo {
+    top: 30px;
+    position: absolute;
+    margin-top: 0%;
+    height: 500px;
+    
+}
+.robot-photo {
+    position: absolute;
+    margin-top: 0%;
+    left: 55%;
+}
+.second-container {
+    background-image: url(assets/background.svg);
+    background-size: cover;
+    padding: 6rem 2rem 3rem 3rem;
+    margin: 5rem -2rem 2rem -3rem;
+}
+.second-container h2 {
+    font-size: 3rem;
+}
+.second-container p2 {
+    font-size: 2rem;
+}
+.grid-partners-logo {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem auto;
+    text-align: left;
+}
+.partner-logo-1, .partner-logo-3 {
+    text-align: left;
+}
+.boomerang-logo {
+    width: 155px;
+    height: 47px;
+    object-fit: cover;
+    object-position: 1% 100%;
+}
+.partner-logo-4{
+    display: none;
+}
+.first-auction-offer-h3 {
+    font-size: 3rem;
+}
+.underline-text {
+    text-decoration: underline;
+    color: var(--dark-3);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+.item-description {
+    justify-content: space-between;
+    display: flex;
+    background-color: var(--dark-2);
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.auction-item {
+    margin-right: 2rem;
+}
+.series-name {
+    color: var(--Orange);
+    font-size: 1rem;
+}
+.second-column {
+    text-align: right;
+    
+}
+.second-column-p2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.second-column-p3 {
+    margin-top: 1.2rem;
+}
+.second-column-h2 {
+    margin-top: 0.1rem;
+}
+.special-symbol::before {
+    content: url('assets/eth.svg');
+    margin-right: 0.5em;
+}
+
+/* Desktop design*/
