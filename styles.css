@@ -41,6 +41,10 @@ h5{
     font-weight:500;
     font-size: 20px;
 }
+h6 {
+    font-weight: 400;
+    font-size: 18px;
+}
 
 .header {
     display: flex;
@@ -190,14 +194,26 @@ button {
     column-gap: 40px;
     padding: 4vh 0;
 }
-.bid {
+.Item-description {
+    background-color: var(--light-2);
+    display: flex;
+    justify-content: space-between;
+    width: 278px;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    padding: 6px;
+}
+.series-name {
+    color: var(--Orange);
+}
+.Bid {
     color: var(--dark-4);
     text-align: right;
 }
 .offer {
     display: flex;
 }
-.time-to.end {
+.time-to-end {
     text-align: right;
     margin: 0;
 }
@@ -257,19 +273,20 @@ ul li a {
 .copyright-right-side {
     display: none;
 }
-@media screen and (min-widht:769px) {
-.last-container {
+@media screen and (min-width:769px) {
+  .last-container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-}   
-.info {
- padding: 0 2vh;
- width: 70px;
-}
-.right-side {
+   }   
+   .info {
+   padding: 0 2vh;
+   width: 70px;
+   }
+  .right-side {
     gap: 2vh;
-}
-.copyright-right-side {
+   }
+  .copyright-right-side {
     display: inline;
+   }
 }
