@@ -56,6 +56,9 @@ h5{
 .navigation {
     display: none;
 }
+.soon {
+    color: #FF3998;
+}
 .burger-item {
    background-color: var(--grey);
    width: 20px;
@@ -73,7 +76,7 @@ h5{
         font-size: 96px;
         font-weight: 900;
     }
-    .container {
+    .Best-auction-offer {
         margin: 6vh;
     }
     .burger-item {
@@ -103,8 +106,9 @@ button {
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #fff inset;
-    background-image: linear-gradient(--dark-1), var(--dark-1),linear-gradient(to right, --pink, --red, --Orange, --green);
-    background-color:var(--light-1);
+    background-image:  linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+                       linear-gradient(to right, rgb(224, 34, 161), red, orange, green);
+    background-color: var(--white);
     padding:20px 50px;
     font-weight:600;
     font-size:20px;
@@ -229,6 +233,9 @@ list-style: none;
     color: var(--dark-2);
     letter-spacing: 01em;
 }
+.left-side {
+    padding: 4vh 2vh;
+}
 ul li {
     list-style-type: none;
     line-height: 4vh;
@@ -263,6 +270,6 @@ ul li a {
 .right-side {
     gap: 2vh;
 }
-.copyright-right-side{
+.copyright-right-side {
     display: inline;
 }
